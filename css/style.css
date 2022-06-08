@@ -1,0 +1,168 @@
+body {
+  width: 100%;
+}
+
+a {
+  color: #000;
+}
+
+.header {
+  margin: 0px 50px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-item {
+  padding-left: 20px;
+}
+
+.top {
+  background: url(/images/top-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.top-container {
+  margin: 0 50px;
+  padding-top: 200px;
+}
+
+.top h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.top p {
+  max-width: 500px;
+  line-height: 1.7;
+  padding-bottom: 10px;
+}
+
+.top button {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.hall {
+  padding: 150px 0px;
+  background-color: cornsilk;
+}
+
+.hall h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hall-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hall-map {
+  margin-left: 60px;
+}
+
+.hall-map img {
+  height: 400px;
+}
+
+.hall-left {
+  width: 40%;
+}
+
+.hall-add {
+  background-color: azure;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.hall-list {
+  margin-top: 20px;
+}
+
+.hall-item {
+  margin-bottom: 10px;
+}
+
+.shop {
+  padding: 150px 0px;
+  background-color: azure;
+}
+
+.shop h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.shop-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop-map img {
+  height: 400px;
+}
+
+.shop-right {
+  width: 40%;
+  margin-left: 60px;
+}
+
+.shop-add {
+  background-color: azure;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.shop-list {
+  margin-top: 20px;
+}
+
+.shop-item {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
